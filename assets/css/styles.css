@@ -41,3 +41,23 @@ header {
 .nav-link:hover {
     background: rgba(230, 230, 230, 0.05);
 }
+
+
+/* Hero */
+.jumbotron {
+    background: #121212;
+    border-bottom: 1px solid rgba(230, 230, 230, 0.05);;
+}
+.hero-image {
+    background: url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+}
+.hero-text {
+    max-width: 36rem;
+    min-height: 400px;
+    border-right: 1px solid rgba(230, 230, 230, 0.05);
+}
+

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background: #121212;
+}
+span {
+    color: rgba(98, 198, 224, 1);
+}
+header {
+    min-height: 80px;
+    border-bottom: 1px solid rgba(230, 230, 230, 0.05);
+}
+
+.bg-dark {
+    background: #121212!important;
+}
+
+/* Navbar */
+.navbar {
+    max-width: 72rem;
+}
+.navbar-brand {
+    border-left: 1px solid rgba(230, 230, 230, 0.05);
+    height: 80px;
+}
+.navbar-nav {
+    border-top: 1px solid rgba(230, 230, 230, 0.05);
+}
+.navbar-nav li:first-child {
+    border-left: 1px solid rgba(230, 230, 230, 0.05)
+}
+.nav-link {
+    height: 80px;
+    border-right: 1px solid rgba(230, 230, 230, 0.05);
+    letter-spacing: 2px;
+}
+.nav-link:hover {
+    background: rgba(230, 230, 230, 0.05);
+}

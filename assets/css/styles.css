@@ -7,7 +7,7 @@
 body {
     background: #121212;
 }
-span {
+span, h3 {
     color: rgba(98, 198, 224, 1);
 }
 header {
@@ -46,7 +46,8 @@ header {
 /* Hero */
 .jumbotron {
     background: #121212;
-    border-bottom: 1px solid rgba(230, 230, 230, 0.05);;
+    border-bottom: 1px solid rgba(230, 230, 230, 0.05);
+    margin: 0;
 }
 .hero-image {
     background: url(../images/hero-image.jpg);
@@ -61,3 +62,22 @@ header {
     border-right: 1px solid rgba(230, 230, 230, 0.05);
 }
 
+
+/* About */
+.about {
+    background: #242424;
+}
+.about .row {
+    max-width: 72rem;
+}
+.about-image {
+    width: 80%;
+    max-width: 200px;
+}
+.about-text h6 {
+    opacity: 75%;
+    letter-spacing: 0.1rem;
+}
+.about-text p {
+    opacity: 85%;
+}
